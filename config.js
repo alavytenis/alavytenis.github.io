@@ -14,22 +14,22 @@ module.exports = {
     {
       icon: 'fa-github',
       name: 'Github',
-      url: '',
+      url: 'https://github.com/superhow',
     },
     {
       icon: 'fa-twitter',
       name: 'Twitter',
-      url: '',
+      url: 'https://twitter.com/SuperHow_io',
     },
     {
       icon: 'fa-facebook',
       name: 'Facebook',
-      url: '',
+      url: 'https://www.facebook.com/superhow.io',
     },
     {
       icon: 'fa-envelope-o',
       name: 'Email',
-      url: '',
+      url: 'info@superhow.io',
     },
   ],
 };

@@ -21,6 +21,7 @@ import lietuvosbankas from '../assets/images/projects/lietuvos-bankas.png'
 import pickvibe from '../assets/images/projects/pickvibe.png'
 import fixNetwork from '../assets/images/projects/fix-network.png'
 
+
 const sections = [
   { id: 'top', name: 'INTRO'},
   { id: 'portfolio', name: 'WHO WE ARE'},
@@ -73,7 +74,7 @@ const IndexPage = () => (
         </div>
         <div className="project-container row">
           <div className="project-card col-3">
-            <a href="#">
+            <a href="https://www.goalhub.net/">
               <img src={goalhub} alt="goalhub"/>
             </a>
           </div>
@@ -83,34 +84,34 @@ const IndexPage = () => (
             </a>
           </div>
           <div className="project-card col-3">
-            <a href="#">
+            <a href="https://coart.biz/">
               <img src={coart} alt="goalhub"/>
             </a>
           </div>
           <div className="project-card col-3">
-            <a href="#">
+            <a href="https://fishcoin.co/">
               <img src={fishcoin} alt="goalhub"/>
             </a>
           </div>
         </div>
         <div className="project-container row">
           <div className="project-card ">
-            <a href="#">
+            <a href="https://fix.network/">
               <img src={fixNetwork} alt="goalhub"/>
             </a>
           </div>
           <div className="project-card ">
-            <a href="#">
+            <a href="https://myorca.io/">
               <img src={orca} alt="goalhub"/>
             </a>
           </div>
           <div className="project-card">
-            <a href="#">
+            <a href="https://www.lb.lt/en/">
               <img src={lietuvosbankas} alt="goalhub"/>
             </a>
           </div>
           <div className="project-card ">
-            <a href="#">
+            <a href="https://depository.center/">
               <img src={depo} alt="goalhub"/>
             </a>
           </div>
@@ -130,19 +131,19 @@ const IndexPage = () => (
             SUPER HOW is a team that has a passion for developing and delivering enterprise-grade solutions. The Core team echoes SUPER HOWs' motto of ‘Empowered by Innovation’ and knows how to take custom software application ideas from concept to delivery.
           </p>
           <div className="row image-line">
-            <a href="/#" className="col image featured">
+            <a href="https://www.linkedin.com/in/ministras/?originalSubdomain=lt" className="col image featured">
                 <img src={vytautas} alt="Vytautas Kašėta" />
                 <div class="text">Vytautas Kašėta</div>
             </a>
-            <a href="/#" className="col image featured">
+            <a href="https://www.linkedin.com/in/andrius-bartminas/?originalSubdomain=lt" className="col image featured">
                 <img src={andrius} alt="Andrius Bartminas" />
                 <div class="text">Andrius Bartminas</div>
             </a>
-            <a href="/#" className="col image featured">
+            <a href="https://www.linkedin.com/in/linas-butenas/?originalSubdomain=lt" className="col image featured">
                 <img src={linas} alt="Linas Būtėnas" />
                 <div class="text">Linas Būtėnas</div>
             </a>
-            <a href="/#" className="col image featured">
+            <a href="https://www.linkedin.com/in/evaldas-bruze-a007b81a/" className="col image featured">
                 <img src={evaldas} alt="Evaldas Bružė" />
                 <div class="text">Evaldas Bružė</div>
             </a>
@@ -159,18 +160,21 @@ const IndexPage = () => (
           <div className="career-container">
             <div className="career-card">
               BLOCKCHAIN DEVELOPER
+              <a href="#" className="button career-button">See more</a>
             </div>
             <div className="career-card">
-              BLOCKCHAIN DEVELOPER
+              C++ DEVELOPER
             </div>
             <div className="career-card">
-              BLOCKCHAIN DEVELOPER
+              FULL STACK DEVELOPER
             </div>
             <div className="career-card">
-              BLOCKCHAIN DEVELOPER
+              UI/UX DESIGNER
             </div>
           </div>
-          <img className="bottom-lightning" src={sixLightningHorizontal} />
+        </div>
+        <div className="bottom-lightning">
+          <img src={sixLightningHorizontal} />
         </div>
       </section>
 

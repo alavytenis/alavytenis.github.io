@@ -7,6 +7,7 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500&display=swap');
+
 /*
 	Prologue by HTML5 UP
 	html5up.net | @ajlkn
@@ -730,7 +731,6 @@
 			overflow: hidden;
 			padding: 4em 0;
 			box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
-			text-align: center;
 			// background-image: url('../images/overlay-blue.jpg');
 
 			&.dark {
@@ -764,19 +764,31 @@
 
 			&.one {
 				background-color: #81918E;
-				background-image: url('../images/overlay-blue.jpg');
+				@media only screen and (max-width: 375px){
+					background-image: url('../images/page-main-small.jpg');
+				}
+				@media only screen and (min-width: 376px) and (max-width: 1020px){
+					background-image: url('../images/page-main-med.jpg');
+				}
+				@media only screen and (min-width: 1021px){
+					background-image: url('../images/page-main-big.jpg');
+				}
+				text-align: center;
 			}
 
 			&.two {
 				background-color: #b60038;
+				text-align: center;
 			}
 
 			&.three {
 				background-color: white;
+				text-align: center;
 			}
 
 			&.four {
 				background-color: #001A72;
+				text-align: center;
 			}
 
 			&.five {
@@ -785,6 +797,7 @@
 
 			&.six {
 				background-color: lightgrey;
+				text-align: center;
 			}
 		}
 	}
@@ -997,7 +1010,7 @@
 				margin: 0 1.25em 1.25em 1.25em;
 			}
 
-			#nav {
+			#j {
 				ul {
 					li {
 						a {
@@ -1162,7 +1175,7 @@
 	}
 
 	#portfolio {
-		background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5) ), url('../images/page_2.jpg');
+		background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5) ), url('../images/spaceman.jpg');
 		// height: 100vh;
 		padding: 10em 0;
 		background-size: cover;
@@ -1221,6 +1234,7 @@
 						margin-top: 0.5em;
 					}
 					img{
+						padding: 0.35em;
 						margin: 0;
 						display: inline;
 						transition: all .3s;
@@ -1329,22 +1343,30 @@
 			}
 	}
 
+
 	#career {
 		padding: 10em 0;
-		background-size: cover;
-		background-position: center center;
+		position: relative;
 		.container{
 				height: 100%;
 				position: relative;
+				margin-bottom: 3em;
 			p{
 				text-align: left;
 				color: darkblue;
 			}
 		}
 		.bottom-lightning{
-			position: relative;
-				width: 14em;
-				bottom: 0;
+				width: 100%;
+				position: absolute;
+			  bottom: 0;
+				img{
+					width: 14em;
+					height: auto;
+					position: relative;
+					bottom: 0px;
+					left: 40%;
+				}
 		}
 		header{
 			h2{
@@ -1354,30 +1376,44 @@
 				text-align: left;
 			}
 		}
-
 	}
 
 	@media screen and (min-width: 640px){
 		.career-container{
-
-				margin: auto;
+				text-align: center;
+				position: relative;
 				.career-card{
-					margin: auto;
-					height: 4em;
+					margin: auto auto 0.5em auto;
+					padding-top: .5em;
+					height: 5em;
 					width: 50%;
 					background-color: rgb(0, 26, 114);
 					color: white;
 					font-weight: 500;
 					font-size: 36px;
+					.career-button{
+						display: block;
+						margin: auto;
+						width: 50%;
+						border: solid 1px white;
+						font-size: 36px;
+						margin-top: 15px;
+						padding: .4em;
+						background: none;
+						&:hover{
+							background: #E40046;
+						}
+					}
 				}
 		}
 	}
 
 	@media screen and (max-width: 640px){
 		.career-container{
-				margin: 0;
-				width: 100%;
+				text-align: center;
+				position: relative;
 				.career-card{
+					margin: auto auto 0.5em auto;
 					margin-left: auto;
 					margin-right: auto;
 					height: 5em;
@@ -1387,6 +1423,19 @@
 						color: white;
 						font-weight: 500;
 						font-size: 24px;
+					}
+					.career-button{
+						display: block;
+						margin: auto;
+						width: 50%;
+						border: solid 1px white;
+						font-size: 24px;
+						margin-top: 10px;
+						padding: .2em;
+						background: none;
+						&:hover{
+							background: #E40046;
+						}
 					}
 				}
 		}
