@@ -74,13 +74,17 @@ const IndexPage = () => (
           </header>
           <p>Here are some all-stars we've worked with over the years: </p>
         </div>
-        <div className="project-container row">
+        <div className="project-container d-flex flex-wrap">
           <div className="project-card col-3">
             <a href="https://www.goalhub.net/">
               <img src={goalhub} alt="goalhub"/>
             </a>
           </div>
-          <div className="project-card col-3">
+          <div className="project-card
+
+          j k lk.
+          2895
+          ">
             <a href="#">
               <img src={pickvibe} alt="goalhub"/>
             </a>
@@ -95,24 +99,22 @@ const IndexPage = () => (
               <img src={fishcoin} alt="goalhub"/>
             </a>
           </div>
-        </div>
-        <div className="project-container row">
-          <div className="project-card ">
+          <div className="project-card col-3">
             <a href="https://fix.network/">
               <img src={fixNetwork} alt="goalhub"/>
             </a>
           </div>
-          <div className="project-card ">
+          <div className="project-card col-3">
             <a href="https://myorca.io/">
               <img src={orca} alt="goalhub"/>
             </a>
           </div>
-          <div className="project-card">
+          <div className="project-card col-3">
             <a href="https://www.lb.lt/en/">
               <img src={lietuvosbankas} alt="goalhub"/>
             </a>
           </div>
-          <div className="project-card ">
+          <div className="project-card col-3">
             <a href="https://depository.center/">
               <img src={depo} alt="goalhub"/>
             </a>
@@ -160,21 +162,13 @@ const IndexPage = () => (
           </header>
           <p> We are hiring! </p>
           <div className="career-container">
-            <a href="#popup1">
+            <a href="#career1">
             <div className="career-card">
               BLOCKCHAIN DEVELOPER
             </div>
             </a>
-            <a href="#popup1"><div className="career-card">
-              BLOCKCHAIN DEVELOPER
-            </div>
-            </a>
-            <a href="#popup1"><div className="career-card">
-              BLOCKCHAIN DEVELOPER
-            </div>
-            </a>
-            <a href="#popup1"><div className="career-card">
-              BLOCKCHAIN DEVELOPER
+            <a href="#career2"><div className="career-card">
+              UI/UX Designer
             </div>
             </a>
           </div>
@@ -183,7 +177,7 @@ const IndexPage = () => (
           <img src={sixLightningHorizontal} />
         </div>
 
-        <div id="popup1" class="overlay">
+        <div id="career1" class="overlay">
         	<div class="popup">
         		<h2 className="p-2">BLOCKCHAIN DEVELOPER</h2>
         		<a class="close" href="#career">&times;</a>
@@ -240,12 +234,71 @@ const IndexPage = () => (
             </div>
         	</div>
         </div>
+
+        <div id="career2" class="overlay">
+          <div class="popup">
+            <h2 className="p-2">UI/UX Designer</h2>
+            <a class="close" href="#career">&times;</a>
+            <div class="d-flex flex-row">
+              <div class="first-column d-flex flex-column col-2 p-2">Open position description</div>
+              <div class="d-flex flex-column col-10 p-2">
+              Appealing and handy user interface helps our clients (Enterprises and Startups) to fully enjoy SUPER HOW services. Together with your colleagues, you will work on a common goal of ensuring customer satisfaction by creating refreshing and delightful user experience. As a UI&UX Designer, you will be responsible for building industry-leading solutions while staying up to date with the best design practices and the latest technologies. Your creativity and design skills will help us enhance and strengthen SUPER HOW's relationship with the customers.
+              </div>
+              </div>
+            <div class="d-flex flex-row">
+              <div class="first-column d-flex flex-column col-2 p-2">Tasks and Responsibilities</div>
+              <div class="d-flex flex-column col-10 p-2">
+                <li>Build out and establish structure and workflow for the UI/UX Design offering </li>
+                <li>Advocate for empathetic, human-centered design and the value it creates. Help mitigate risk by pursuing insight-driven work based on an understanding of our users</li>
+                <li>Work directly with clients, hosting workshops to understand the end user and establish the visual direction for the production </li>
+                <li>Design end-to-end user experiences across a variety of digital mediums (mainly Mobile and Desktop)</li>
+                <li>Participate in and facilitate idea-generating sessions with cross-functional teams and evaluate those ideas with regards to technical feasibility, business viability and human desirability</li>
+                <li>Problem solving, thinking big, and exploring divergent ideas while understanding how to converge and build iteratively towards the best solution</li>
+                <li>Mentoring and guiding others in their craft and profession to continually uplift our team and the quality of our work.</li>
+              </div>
+            </div>
+            <div class="d-flex flex-row">
+              <div class="first-column d-flex flex-column col-2 p-2">What we expect</div>
+              <div class="d-flex flex-column col-10 p-2">
+                <li>Minimum 3 years of relevant, professional digital design experience </li>
+                <li>Strong understanding of and experience applying user experience design principles </li>
+                <li>Ability to analyze qualitative and quantitative information and external factors that may influence or have an impact on the company as well as the customers, distribution systems, operations, and the strategic planning process.</li>
+                <li>Proven ability to set work priorities that conform with established objectives, timeframes and accomplish a task in the most effective manner. </li>
+                <li>A keen design eye.</li>
+                <li>Attention to details.</li>
+                <li>Proficiency in the Adobe Creative Suite. </li>
+                <li>Strong knowledge of Sketch, InstaPage or similar.</li>
+                <li>Strong understanding of responsive design.</li>
+                <li>Good understanding of HTML and CSS and how designs are implemented into front-end code.</li>
+                <li>Responsible, collaborative, organized and self-motivated</li>
+              </div>
+            </div>
+            <div class="d-flex flex-row">
+              <div class="first-column d-flex flex-column col-2 p-2">Who You Are</div>
+              <div class="d-flex flex-column col-10 p-2">
+                <li>High energy </li>
+                <li>Hard-working</li>
+                <li>Excellent communicator </li>
+                <li>Eager to learn </li>
+                <li>Innate curiosity </li>
+                <li>Comfortable in ambiguity </li>
+              </div>
+            </div>
+            <div class="d-flex flex-row">
+              <div class="first-column d-flex flex-column col-2 p-2">What we offer</div>
+              <div class="d-flex flex-column col-10 p-2">
+                <li>Innovative products and projects to work on.</li>
+                <li>Ideal conditions for work and flexible work hours.</li>
+                <li>Personal incentive system (learning courses of your choice, e-books, stellar idea bonuses, etc.).</li>
+                <li>Unique opportunities to grow professionally and as part of the team which is on a path of disrupting the world and changing the future.</li>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section id="contact" className="six">
-        <div className="container">
-
-          <div className="contact-container">
+        <div className="container contact-container">
           <div className="row">
             <div className="col-10">
             <header>
@@ -264,15 +317,10 @@ const IndexPage = () => (
               <p>UK +44 (7) 520644322</p>
               <p>IL   +972 (55) 9997606</p>
             </div>
-            <div className="col-2">
-              <p className="web-link"> superhow.io </p>
-            </div>
-          </div>
           </div>
         </div>
       </section>
     </div>
-
     <PageFooter />
   </Layout>
 );

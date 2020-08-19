@@ -5,9 +5,6 @@ export default function PageFooter() {
     <div id="footer">
       <ul className="copyright">
         <li>&copy; 2020 by SUPER HOW?</li>
-        <li>
-          Demo Images: <a href="http://unsplash.com/">Unsplash</a>
-        </li>
       </ul>
     </div>
   );
