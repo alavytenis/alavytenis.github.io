@@ -232,6 +232,7 @@ const IndexPage = () => (
                 <li>Unique opportunities to grow professionally and as part of the team which is on a path of disrupting the world and changing the future;</li>
               </div>
             </div>
+
         	</div>
         </div>
 

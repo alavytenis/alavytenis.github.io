@@ -772,7 +772,7 @@
 					background-image: url('../images/page-main-med.jpg');
 				}
 				@media only screen and (min-width: 1021px){
-					background-image: url('../images/page-main-big.jpg');
+					background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2) ), url('../images/page-main-big.jpg');
 				}
 				text-align: center;
 			}
@@ -1176,7 +1176,7 @@
 	}
 
 	#portfolio {
-		background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5) ), url('../images/page_2.jpg');
+		background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5) ), url('../images/team-page.jpg');
 		// height: 100vh;
 		padding: 10em 0;
 		background-size: cover;
@@ -1430,6 +1430,10 @@
 			}
 			.flex-row{
 				padding-bottom: 1em;
+			}
+			.btn{
+				margin: auto;
+				font-size: 24px;
 			}
 		}
 
